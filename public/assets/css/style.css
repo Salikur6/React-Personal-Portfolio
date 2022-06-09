@@ -562,7 +562,7 @@ section#about {
 }
 .profile-info-2,
 .profile-info-3 {
-  display: none;
+  display: block;
 }
 .profile-info-1 {
   margin-top: 40px;
