@@ -1,0 +1,317 @@
+.position-title{
+    position: relative;
+    color: transparent;
+}
+
+.position-title::before{
+    content: "I'm Junior Web Developer";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: Black;
+    animation: typing 9S linear infinite;
+}
+
+@keyframes typing {
+    0%{
+        content: 'I|';
+    }
+    1%{
+        content: "I'|";
+    }
+    2%{
+        content: "I'm|";
+    }
+    3%{
+        content: "I'm J|";
+    }
+    4%{
+        content: "I'm Ju|";
+    }
+    5%{
+        content: "I'm Juni|";
+    }
+    6%{
+        content: "I'm Junio|";
+    }
+    7%{
+        content: "I'm Junior|";
+    }
+    8%{
+        content: "I'm Junior |";
+    }
+    9%{
+        content: "I'm Junior W|";
+    }
+    10%{
+        content: "I'm Junior We|";
+    }
+    11%{
+        content: "I'm Junior Web|";
+    }
+    12%{
+        content: "I'm Junior Web |";
+    }
+    13%{
+        content: "I'm Junior Web D|";
+    }
+    14%{
+        content: "I'm Junior Web De|";
+    }
+    15%{
+        content: "I'm Junior Web Dev|";
+    }
+    16%{
+        content: "I'm Junior Web Deve|";
+    }
+    17%{
+        content: "I'm Junior Web Devel|";
+    }
+    18%{
+        content: "I'm Junior Web Develo|";
+    }
+    19%{
+        content: "I'm Junior Web Develop|";
+    }
+    20%{
+        content: "I'm Junior Web Develope";
+    }
+    21%{
+        content: "I'm Junior Web Developer";
+    }
+    22%{
+        content: "I'm Junior Web Developer|";
+    }
+    23%{
+        content: "I'm Junior Web Developer";
+    }
+    24%{
+        content: "I'm Junior Web Developer";
+    }
+   
+    25%{
+        content: "I'm Junior Web Developer|";
+    }
+    26%{
+        content: "I'm Junior Web Developer";
+    }
+    27%{
+        content: "I'm Junior Web Developer";
+    }
+    28%{
+        content: "I'm Junior Web Develope|";
+    }
+    29%{
+        content: "I'm Junior Web Develop|";
+    }
+    30%{
+        content: "I'm Junior Web Develo|";
+    }
+    31%{
+        content: "I'm Junior Web Devel|";
+    }
+    32%{
+        content: "I'm Junior Web Deve|";
+    }
+    33%{
+        content: "I'm Junior Web Dev|";
+    }
+    34%{
+        content: "I'm Junior Web De|";
+    }
+    35%{
+        content: "I'm Junior Web D|";
+    }
+    36%{
+        content: "I'm Junior Web |";
+    }
+    37%{
+        content: "I'm Junior Web|";
+    }
+    38%{
+        content: "I'm Junior We|";
+    }
+    39%{
+        content: "I'm Junior W|";
+    }
+    40%{
+        content: "I'm Junior |";
+    }
+    41%{
+        content: "I'm Junior|";
+    }
+    42%{
+        content: "I'm Junio|";
+    }
+    43%{
+        content: "I'm Juni|";
+    }
+    44%{
+        content: "I'm Jun|";
+    }
+    45%{
+        content: "I'm Ju|";
+    }
+    46%{
+        content: "I'm J|";
+    }
+    47%{
+        content: "I'm |";
+    }
+    48%{
+        content: "I'm|";
+    }
+    49%{
+        content: "I'|";
+    }
+    50%{
+        content: "I|";
+    }
+    51%{
+        content: "|";
+    }
+    52%{
+        content: "F|";
+    }
+    53%{
+        content: "Fu|";
+    }
+    54%{
+        content: "Ful|";
+    }
+    55%{
+        content: "Full|";
+    }
+    56%{
+        content: "Full-|";
+    }
+    57%{
+        content: "Full-S|";
+    }
+    58%{
+        content: "Full-St|";
+    }
+    59%{
+        content: "Full-Sta|";
+    }
+    60%{
+        content: "Full-Stac|";
+    }
+    61%{
+        content: "Full-Stack|";
+    }
+    62%{
+        content: "Full-Stack |";
+    }
+    63%{
+        content: "Full-Stack D|";
+    }
+    64%{
+        content: "Full-Stack De|";
+    }
+    65%{
+        content: "Full-Stack Dev|";
+    }
+    66%{
+        content: "Full-Stack Deve|";
+    }
+    67%{
+        content: "Full-Stack Devel|";
+    }
+    68%{
+        content: "Full-Stack Develo|";
+    }
+    69%{
+        content: "Full-Stack Develop|";
+    }
+    70%{
+        content: "Full-Stack Develope";
+    }
+    71%{
+        content: "Full-Stack Developer";
+    }
+    72%{
+        content: "Full-Stack Developer|";
+    }
+    73%{
+        content: "Full-Stack Developer";
+    }
+    74%{
+        content: "Full-Stack Developer";
+    }
+    75%{
+        content: "Full-Stack Developer|";
+    }
+    76%{
+        content: "Full-Stack Developer ";
+    }
+    77%{
+        content: "Full-Stack Developer|";
+    }
+    78%{
+        content: "Full-Stack Develope|";
+    }
+    79%{
+        content: "Full-Stack Develop|";
+    }
+    80%{
+        content: "Full-Stack Develo|";
+    }
+    81%{
+        content: "Full-Stack Devel|";
+    }
+    82%{
+        content: "Full-Stack Deve|";
+    }
+    83%{
+        content: "Full-Stack Dev|";
+    }
+    84%{
+        content: "Full-Stack De|";
+    }
+    85%{
+        content: "Full-Stack D|";
+    }
+    86%{
+        content: "Full-Stack |";
+    }
+    87%{
+        content: "Full-Stack|";
+    }
+    88%{
+        content: "Full-Stac|";
+    }
+    89%{
+        content: "Full-Sta|";
+    }
+    90%{
+        content: "Full-St|";
+    }
+    91%{
+        content: "Full-S|";
+    }
+    92%{
+        content: "Full-|";
+    }
+    93%{
+        content: "Full|";
+    }
+    94%{
+        content: "Ful|";
+    }
+    95%{
+        content: "Fu|";
+    }
+    96%{
+        content: "F|";
+    }
+    97%{
+        content: "|";
+    }
+    100%{
+        content: "|";
+    }
+    
+    
+   
+}

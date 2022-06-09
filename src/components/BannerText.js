@@ -1,4 +1,5 @@
 import React from 'react';
+import './BannerText.css'
 
 const BannerText = () => {
     return (
@@ -8,8 +9,8 @@ const BannerText = () => {
                     <div className="d-table">
                         <div className="d-table-cell">
                             <div className="design-text">
-                                <h5>Hi! I am Salikur.</h5>
-                                <h1>Full-Stack Developer</h1>
+                                <h2 className='fw-bold'>Salikur Islam</h2>
+                                <h1 className='position-title'>Full-Stack Developer</h1>
                                 <p>Let me help you increase business egagement with qualityful Websites and Web Applications
                                 </p>
 
