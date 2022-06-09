@@ -20,11 +20,9 @@ const Navbar = () => {
                             <li className="nav-item">
                                 <a className="nav-link" aria-current="page" href="#fg">Home</a>
                             </li>
+
                             <li className="nav-item">
-                                <a className="nav-link" href="#fg">free templates</a>
-                            </li>
-                            <li className="nav-item">
-                                <a href='k' className="nav-link contact">Contact Me</a>
+                                <a href='#contact' className="nav-link contact">Contact Me</a>
                             </li>
                         </ul>
 

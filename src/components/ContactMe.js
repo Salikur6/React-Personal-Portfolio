@@ -19,7 +19,7 @@ const ContactMe = () => {
     }
     return (
         <div>
-            <section id="" className="contact-me mb-70">
+            <section id="contact" className="contact-me mb-70">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
