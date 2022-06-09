@@ -531,7 +531,6 @@ section#about {
   margin: 20px 0;
   font-weight: 800;
   font-family: emoji;
-  font-size: 32px;
 }
 .brak-me-into {
   font-weight: 700;
@@ -579,19 +578,22 @@ p.skill1 {
   font-size: 18px;
 }
 p.skill2 {
-  margin: 23px 0 0 0;
+  margin: 15px 0 0 0;
   font-weight: 900;
   font-size: 18px;
 }
 .skill-snp {
-  background-color: #e1e9fa;
-  color: #7499e7;
-  padding: 5px;
+  display: inline-block;
+  padding: 10px;
   margin: 5px;
-  margin-bottom: 20px;
-  display: block;
+  border: 2px solid #0c86f7a1;
+  margin-bottom: 10px;
   font-weight: 700;
   cursor: default;
+  border-radius: 8px;
+}
+.skill-div{
+  margin: 5px 0 0 10px;
 }
 i.icon.style-social-link {
   background: #5e89e3;
@@ -600,7 +602,7 @@ i.icon.style-social-link {
 }
 .profile-info-1 p {
   font-family: "Times New Roman", Times, serif;
-  font-size: 17px;
+  font-size: 20px;
   text-align: justify;
 }
 .contact-left-side.about-contact-right {

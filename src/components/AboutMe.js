@@ -9,24 +9,24 @@ const AboutMe = () => {
     // Profile infomation click to hide and show //
 
 
-    $(".click1").click(function () {
-        $(".click1").addClass("fff");
-        $(".click2").removeClass("fff");
-        $(".click3").removeClass("fff");
-    })
-    $(".click2").click(function () {
+    // $(".click1").click(function () {
+    //     $(".click1").addClass("fff");
+    //     $(".click2").removeClass("fff");
+    //     $(".click3").removeClass("fff");
+    // })
+    // $(".click2").click(function () {
 
-        $(".click2").addClass("fff");
-        $(".click1").removeClass("fff");
-        $(".click3").removeClass("fff");
-    })
-    $(".click3").click(function () {
+    //     $(".click2").addClass("fff");
+    //     $(".click1").removeClass("fff");
+    //     $(".click3").removeClass("fff");
+    // })
+    // $(".click3").click(function () {
 
-        $(".click3").addClass("fff");
-        $(".click1").removeClass("fff");
-        $(".click2").removeClass("fff");
+    //     $(".click3").addClass("fff");
+    //     $(".click1").removeClass("fff");
+    //     $(".click2").removeClass("fff");
 
-    })
+    // })
 
 
     //  About Us Main image using VanillaTilt animation //
@@ -51,12 +51,13 @@ const AboutMe = () => {
     //-----------------------
 
     const [show1, setShow1] = useState(true);
-    const [show2, setShow2] = useState();
-    const [show3, setShow3] = useState();
+    const [show2, setShow2] = useState(false);
+    const [show3, setShow3] = useState(false);
     const handleProfile = () => {
         setShow1(true);
         setShow3(false)
         setShow2(false)
+
     }
     const handleSkills = () => {
         setShow2(true)
@@ -102,39 +103,25 @@ const AboutMe = () => {
 
                                         <div className="profile-button">
 
-                                            <button className='profile-border bg-transparent border-0' onClick={handleProfile}>Profile</button>
+                                            <button className={show1 ? 'profile-border bg-transparent border-0 fff' : 'profile-border bg-transparent border-0'} onClick={handleProfile}>Profile</button>
 
-                                            <button className='profile-border bg-transparent border-0'
+                                            <button className={show2 ? 'profile-border bg-transparent border-0 fff' : 'profile-border bg-transparent border-0'}
                                                 onClick={handleSkills}>Skills</button>
 
 
-                                            <button className="profile-border bg-transparent border-0" onClick={handleContact}>Connect</button>
+                                            <button className={show3 ? 'profile-border bg-transparent border-0 fff' : 'profile-border bg-transparent border-0'} onClick={handleContact}>Connect</button>
                                         </div>
                                         <hr />
 
 
                                         {(show1 && !show2 && !show3) &&
                                             <div className="profile-info-1">
-                                                <h2 className="profile-headt"> Hi! I’m a 18-years-old Freelancer!</h2>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                                    Contrary
-                                                    to popular belief, Lorem Ipsum is not simply random text. It has roots in a
-                                                    piece of classical Latin literature from 45 BC, making it over 2000 years
-                                                    old.<br /><br />
-                                                    Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
-                                                    looked
-                                                    up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,
-                                                    and
-                                                    going through the cites of the word in classical.<br /><br />
+                                                <h2 className="profile-headt"> Hi! I’m Salikur Islam</h2>
+                                                <p>
+                                                    I am working hard with a strong desire to become a junior web developer in the next few months. My goal is to see myself as a Frontend, MERN Stack Developer! in 2022. After finish this web-development learning i will focus on getting a job on Software industry, where I will be able to perform in any kind of situation with full effort to utilize my knowledge, skill, and experience for professional career development..
 
-                                                    Ipsum passages, and more recently with desktop publishing software like Aldus
-                                                    PageMaker including versions of Lorem Ipsum.
 
-                                                    <br /><br /><span className="brak-me-into">I started working
-                                                        as a freelancer working in different marketplaces like Fiverr & Upwork!
-                                                        Where I
-                                                        have
-                                                        worked with over 0 client. :-(</span>
+                                                    <br /><br /><span className="brak-me-into">Passionate about applying programming skill set in a collaborative environment, to contribute to projects involving the latest tools and technologies. Front End Developer, interested in remote jobs. Experienced in Responsive Web Design & Development. Love learning and working with new technologies. :-(</span>
                                                 </p>
                                                 <a href='l' className="btn profile-btn contact">Contact Me</a>
                                             </div>
@@ -145,45 +132,79 @@ const AboutMe = () => {
 
                                         {(show2 && !show1 && !show3) &&
                                             <div className="profile-info-2">
-                                                <h2 className="profile-headt">a</h2>
-                                                <p className="skill1">Front End</p>
-                                                <span className="skill-snp">HTML5</span>
-                                                <span className="skill-snp">CSS3</span>
-                                                <span className="skill-snp">Javascript</span>
-                                                <span className="skill-snp">jquery</span>
-                                                <span className="skill-snp">Bootstrap</span>
 
-                                                <p className="skill2">Back End</p>
-                                                <span className="skill-snp">PHP</span>
+                                                <p className="skill1">Experts </p>
+                                                <div className='skill-div'>
+                                                    <span style={{ background: '#f06529' }} className="skill-snp">HTML</span>
+                                                    <span style={{ background: '#264de4' }} className="skill-snp text-white">CSS</span>
+                                                    <span style={{ background: 'rgb(4 177 253)' }} className="skill-snp">Tailwind</span>
+                                                    <span style={{ background: '#563d7c' }} className="skill-snp text-white">Bootstrap</span>
+                                                    <span style={{ background: 'yellow' }} className="skill-snp">JavaScript</span>
+                                                    <span className="skill-snp">ES6</span>
+                                                    <span style={{ background: '#61dbfb' }} className="skill-snp">React</span>
+                                                    <span className="skill-snp bg-secondary text-white">React Bootstrap</span>
+                                                    <span className="skill-snp bg-danger text-white">React Router</span>
+                                                </div>
 
-                                                <p className="skill2">Others</p>
-                                                <span className="skill-snp">HTML5</span>
-                                                <span className="skill-snp">CSS3</span>
+
+
+                                                <p className="skill2">Comfortable</p>
+
+                                                <div className='skill-div'>
+                                                    <span style={{ background: '#4DB33D' }} className="skill-snp">MongoDB</span>
+                                                    <span style={{ background: '#000' }} className="skill-snp text-white">Express.js</span>
+                                                    <span style={{ background: '#3c873a' }} className="skill-snp">Node.js</span>
+                                                    <span className="skill-snp">Authentication</span>
+                                                    <span className="skill-snp">React Query</span>
+                                                    <span className="skill-snp">Axios</span>
+                                                </div>
+
+
+                                                <p className="skill2">Familiar</p>
+                                                <div className='skill-div'>
+                                                    <span className="skill-snp">Mailchimp</span>
+                                                    <span className="skill-snp">Payment Gateway</span>
+                                                </div>
+
+
+
+                                                <p className="skill2">Tools and others</p>
+
+                                                <div className='skill-div'>
+                                                    <span className="skill-snp">Git</span>
+                                                    <span className="skill-snp">GitHub</span>
+                                                    <span className="skill-snp">Dev Tools</span>
+                                                    <span className="skill-snp">Figma</span>
+                                                    <span className="skill-snp">VS Code</span>
+                                                    <span className="skill-snp">Firebase</span>
+                                                    <span className="skill-snp">Netlify</span>
+                                                    <span className="skill-snp">Heroku</span>
+
+                                                </div>
+
                                             </div>
                                         }
 
 
-
-
                                         {(show3 && !show1 && !show2) &&
                                             <div className="profile-info-3">
-                                                <h2 className="profile-headt">a</h2>
+
                                                 <div className="contact-left-side about-contact-right">
                                                     <h5>Phone</h5>
                                                     <p>+880&nbsp;1823&nbsp;85&nbsp;34&nbsp;42</p>
 
                                                     <h5>Email</h5>
-                                                    <p>info@gmail.com</p>
+                                                    <p>salikur6@gmail.com</p>
 
                                                     <h5>Address</h5>
-                                                    <p>Sylhet,Bangladesh</p>
+                                                    <p>Alompur, Sylhet,Bangladesh</p>
 
                                                     <a target="blank" className="social-link"
                                                         href="https://www.facebook.com/Salikur/"><i
                                                             className="icofont-facebook icon style-social-link"></i></a>
-                                                    <a target="blank" className="social-link" href="#j"><i
+                                                    <a target="blank" className="social-link" href="https://www.linkedin.com/in/salikur-islam/"><i
                                                         className="icofont-linkedin icon style-social-link"></i></a>
-                                                    <a target="blank" className="social-link" href="live:.cid.5eb4b20f8b5d3715"><i
+                                                    <a target="blank" className="social-link" href="https://join.skype.com/invite/yehjKHX97ddV"><i
                                                         className="icofont-skype icon style-social-link"></i></a>
                                                 </div>
                                             </div>
@@ -196,8 +217,6 @@ const AboutMe = () => {
                         </div>
                     </div>
                 </div>
-
-
 
             </section>
 

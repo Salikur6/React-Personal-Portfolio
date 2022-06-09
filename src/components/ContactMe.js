@@ -1,6 +1,22 @@
 import React from 'react';
+import emailjs from '@emailjs/browser';
+import { toast } from 'react-toastify';
 
 const ContactMe = () => {
+
+    function sendEmail(e) {
+        e.preventDefault();
+
+        emailjs.sendForm('gmail', 'template_wxzutks', e.target, 'PiwMrsmA7Oqpw2Rtr')
+            .then((result) => {
+                console.log(result.text);
+                toast('Email Sent Successfully')
+            }, (error) => {
+                console.log(error.text);
+            });
+
+        e.target.reset();
+    }
     return (
         <div>
             <section id="" className="contact-me mb-70">
@@ -31,25 +47,29 @@ const ContactMe = () => {
                                     </div>
                                     <div className="col-lg-7 main-p-remove">
                                         <div className="contact-right-side">
-                                            <form>
+
+
+                                            <form onSubmit={sendEmail}>
                                                 <div className="form-group">
                                                     <input type="text" className="form-control" id="exampleInputText"
-                                                        aria-describedby="textHelp" placeholder="Your Name" />
+                                                        aria-describedby="textHelp" placeholder="Your Name" name='name' />
                                                 </div>
                                                 <div className="form-group">
                                                     <input type="email" className="form-control" id="exampleInputEmail1"
-                                                        aria-describedby="emailHelp" placeholder="Your Email" />
+                                                        aria-describedby="emailHelp" placeholder="Your Email" name='email' />
                                                 </div>
                                                 <div className="form-group">
                                                     <input type="text" className="form-control" id="exampleInputContactPurpose"
-                                                        placeholder="Contact Purpose" />
+                                                        placeholder="Contact Purpose" name='subject' />
                                                 </div>
                                                 <div className="form-group">
                                                     <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"
-                                                        placeholder="Your Message"></textarea>
+                                                        placeholder="Your Message" name='message'></textarea>
                                                 </div>
-                                                <button type="submit" className="btn btn-primary">Send Message</button>
+
+                                                <input type="submit" value="Send Message" />
                                             </form>
+
 
                                         </div>
                                     </div>
