@@ -19,13 +19,13 @@ const Projects = () => {
                         <div className="col-lg-4 col-md-6">
                             <div className="portfolio-main-design">
                                 <div className="portfolio-img">
-                                    <img src="assets/img/salik1.png" alt="" />
+                                    <img src="assets/img/carmanufacturer.png" alt="" />
                                 </div>
                                 <div className="portfolio-text">
-                                    <small className="portfolio-small">Web Design</small>
-                                    <h3 className="portfolio-hhh">Gridy Blogger</h3>
+                                    <small className="portfolio-small">Full-Stack Development</small>
+                                    <h3 className="portfolio-hhh">Car Manufacturer Parts</h3>
                                     <div className="botton-dv">
-                                        <a className="portfolio-btn" target="blank" href="salik6/index.html">Preview</a>
+                                        <a className="portfolio-btn" target="blank" href="https://car-manufacturer-65843.web.app/">Preview</a>
                                     </div>
                                 </div>
                             </div>
@@ -33,13 +33,13 @@ const Projects = () => {
                         <div className="col-lg-4 col-md-6">
                             <div className="portfolio-main-design">
                                 <div className="portfolio-img">
-                                    <img src="assets/img/salik1.png" alt="" />
+                                    <img src="assets/img/furniture.png" alt="" />
                                 </div>
                                 <div className="portfolio-text">
-                                    <small className="portfolio-small">Web Design</small>
-                                    <h3 className="portfolio-hhh">Gridy Blogger</h3>
+                                    <small className="portfolio-small">Full-Stack Development</small>
+                                    <h3 className="portfolio-hhh">Homely Furniture Werehouse</h3>
                                     <div className="botton-dv">
-                                        <a className="portfolio-btn" target="blank" href="salik6/index.html">Preview</a>
+                                        <a className="portfolio-btn" target="blank" href="https://furniture-werehouse.web.app/">Preview</a>
                                     </div>
                                 </div>
                             </div>
@@ -47,13 +47,13 @@ const Projects = () => {
                         <div className="col-lg-4 col-md-6">
                             <div className="portfolio-main-design">
                                 <div className="portfolio-img">
-                                    <img src="assets/img/salik1.png" alt="" />
+                                    <img src="assets/img/foodcatering.png" alt="" />
                                 </div>
                                 <div className="portfolio-text">
-                                    <small className="portfolio-small">Web Design</small>
-                                    <h3 className="portfolio-hhh">Gridy Blogger</h3>
+                                    <small className="portfolio-small">Front-End Development</small>
+                                    <h3 className="portfolio-hhh">Homely Food catering</h3>
                                     <div className="botton-dv">
-                                        <a className="portfolio-btn" target="blank" href="salik6/index.html">Preview</a>
+                                        <a className="portfolio-btn" target="blank" href="https://fatobook-food-catering.web.app/">Preview</a>
                                     </div>
                                 </div>
                             </div>
