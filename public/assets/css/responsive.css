@@ -1,0 +1,269 @@
+@media only screen and (max-width: 767px) {
+  .design-text {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .design-text h5 {
+    font-weight: 900;
+  }
+  .design-text h1 {
+    font-weight: 800;
+    font-size: 20px;
+  }
+  .design-text p {
+    max-width: 100% !important;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .design-text a.portfolio-scroll,
+  a.aboutme-scroll {
+    display: block;
+    margin: 10px;
+  }
+  a.btn {
+    display: block;
+    margin-bottom: 7px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .aboutme.me-img .myimg {
+    width: 100%;
+    height: 360px;
+    margin-top: 50px;
+    padding: 0 15px;
+  }
+  .col-lg-6.mt-130 {
+    margin-top: 75px;
+  }
+  .about-me::after {
+    background: linear-gradient(
+      201deg,
+      rgb(204 86 243) 0%,
+      rgb(20 253 91 / 55%) 100%
+    ) !important;
+    clip-path: none !important;
+  }
+  .aboutme .about-into-tx {
+    color: #ffffff;
+    border-right: 5px outset #2826da;
+  }
+  .aboutme .profile-tx {
+    margin-bottom: 150px;
+  }
+  .profile-info-1 p {
+    text-align: justify;
+  }
+  .profile-tx .profile-border {
+    padding: 13px 19px;
+  }
+  .my-services .mt-100 {
+    margin-top: 0;
+  }
+  .my-services .services-item {
+    text-align: center;
+  }
+  .service-text .item.first-d {
+    width: 100%;
+  }
+  .service-text .item.second-d {
+    width: 100%;
+  }
+  .item .service-divided {
+    margin-right: 0;
+  }
+  .main-cont.owl-carousel.owl-theme.owl-loaded.owl-drag {
+    width: 73%;
+    transform: translate(60px, -58px);
+  }
+  .main-cont .slider-item {
+    width: 95%;
+    transform: translate(0px, 10px);
+  }
+  .testimonials .testimo-hd {
+    padding: 20px;
+    margin: 45px 0px;
+  }
+  .testimo-hd h2 {
+    font-size: 30px;
+    font-weight: 800;
+  }
+  .contact-tx p {
+    font-size: 14px;
+  }
+  .contact-me .contact-before-design::before {
+    transform: translate(-12px, 150px);
+    width: calc(93.5% + 31px);
+    height: calc(18% + 84%);
+  }
+  .contact-me .contact-tx.contact-bottom {
+    transform: translate(0px, -5px);
+    margin-bottom: 50px;
+  }
+  .contact-tx .col-lg-4.main-p-remove.main-wid {
+    width: 93%;
+    margin-left: 10px;
+  }
+  .contact-tx .contact-right-side {
+    padding: 20px 5px 60px 12px;
+    width: 93%;
+    margin-left: 10px;
+  }
+  section.contact-me.mb-70 {
+    margin-bottom: 100px;
+  }
+  .extra-p .links-tx {
+    margin-bottom: 30px;
+  }
+  .all-links .container.extra-p {
+    padding: 70px 15px;
+  }
+  .footer-section .footer-p {
+    font-weight: 700;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 576px) {
+  .aboutme.me-img {
+    text-align: center;
+  }
+  .aboutme.me-img .myimg {
+    padding: 0 15px;
+    max-width: 400px;
+  }
+  .profile-info-1 p {
+    text-align: justify;
+  }
+  .profile-tx .profile-border {
+    padding: 13px 35px;
+  }
+
+  .service-text.flex {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .portfolio-main-design {
+    max-width: 400px;
+    margin-right: 7%;
+    margin-left: 7%;
+  }
+  .main-cont.owl-carousel.owl-theme.owl-loaded.owl-drag {
+    width: 73%;
+    transform: translate(66px, -58px);
+  }
+  .main-cont .slider-item {
+    width: 98%;
+    transform: translate(3px, 10px);
+  }
+  .services-item .service-text.service-width {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .aboutme.me-img {
+    text-align: center;
+  }
+  .aboutme.me-img .myimg {
+    padding: 0 15px;
+    max-width: 400px;
+  }
+  .profile-info-1 p {
+    text-align: justify;
+  }
+  .profile-tx .profile-border {
+    padding: 13px 45px;
+  }
+  .services-item .service-text.service-width {
+    max-width: 100%;
+  }
+  .service-text.flex {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .portfolio-main-design {
+    max-width: 500px;
+  }
+  .portfolio-main-design .portfolio-img img {
+    width: 500px;
+  }
+  .main-cont.owl-carousel.owl-theme.owl-loaded.owl-drag {
+    width: 75%;
+  }
+  .main-cont .slider-item {
+    width: 99%;
+  }
+  .contact-me .contact-before-design::before {
+    transform: translate(-50px, 143px);
+    width: calc(108.5% + 31px);
+    height: calc(18% + 83%);
+  }
+  .contact-tx .contact-right-side {
+    padding: 20px 5px 60px 16px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-me .mt-130 {
+    margin-top: 60px;
+  }
+  .aboutme .myimg {
+    margin-top: 60px;
+  }
+  .profile-tx .profile-border {
+    padding: 10px 55px;
+    color: #000;
+    font-weight: 700;
+  }
+  .services-item .service-text.service-width {
+    max-width: 100%;
+    text-align: center;
+  }
+  .testimonials .main-cont {
+    transform: translate(55px, -58px);
+    width: 77%;
+  }
+  .main-cont .slider-item {
+    width: 96%;
+    transform: translate(18px, 10px);
+  }
+  .contact-tx .col-lg-4.main-p-remove.main-wid {
+    width: 85%;
+  }
+  .contact-tx .contact-right-side {
+    width: 85%;
+  }
+  .contact-tx .contact-before-design::before {
+    width: calc(82% + 27px);
+    transform: translate(35px, 151px);
+  }
+  .extra-p .links-tx {
+    margin-bottom: 40px;
+  }
+  .footer-section .footer-p {
+    font-weight: 700;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  li.nav-item a.nav-link {
+    padding: 30px 9px !important;
+  }
+  .collapse a.social-link {
+    padding: 10px 3px 30px;
+  }
+  .profile-info-1 p {
+    text-align: justify;
+  }
+  .service-text .service-divided {
+    padding: 10px;
+  }
+  .portfolio-main-design {
+    text-align: center;
+  }
+  .testimonials .main-cont {
+    transform: translate(96px, -58px);
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1650px) {
+}
