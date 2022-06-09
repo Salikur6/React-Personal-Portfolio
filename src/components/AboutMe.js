@@ -79,8 +79,8 @@ const AboutMe = () => {
 
 
             <section id="about" className="about-me mb-70 aboutscroll">
-                <img className="slide-img1 clearHeader" src="img/img1.jpg" alt="" />
-                <img className="slide-img2 slide-img" src="img/img2.jpg" alt="" />
+                {/* <img className="slide-img1 clearHeader" src="img/img1.jpg" alt="" />
+                <img className="slide-img2 slide-img" src="img/img2.jpg" alt="" /> */}
                 <div className="container">
 
                     <div className="blur">

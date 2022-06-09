@@ -9,13 +9,19 @@ const BannerText = () => {
                         <div className="d-table-cell">
                             <div className="design-text">
                                 <h5>Hi! I am Salikur.</h5>
-                                <h1>Front End Developer</h1>
+                                <h1>Full-Stack Developer</h1>
                                 <p>Let me help you increase business egagement with qualityful Websites and Web Applications
                                 </p>
 
 
-                                <a href='k' className="aboutme-scroll">About Me</a>
-                                <a href='k' className="portfolio-scroll">Check My Portfolio</a>
+                                <a href='#about' className="btn btn-primary m-3">About Me</a>
+                                <a target='blank'
+                                    href="https://drive.google.com/file/d/1DaEiKKb7Wu6tGWO31D3fKzC_Jl_nnoyB/view?usp=sharing"
+                                    className="btn btn-primary m-3"
+                                >
+                                    Download Resume
+                                </a>
+                                {/* <a href='k' className="portfolio-scroll">Check My Portfolio</a> */}
                             </div>
                         </div>
                     </div>

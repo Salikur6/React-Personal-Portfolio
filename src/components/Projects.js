@@ -30,6 +30,48 @@ const Projects = () => {
                                 </div>
                             </div>
                         </div>
+                        <div className="col-lg-4 col-md-6">
+                            <div className="portfolio-main-design">
+                                <div className="portfolio-img">
+                                    <img src="assets/img/salik1.png" alt="" />
+                                </div>
+                                <div className="portfolio-text">
+                                    <small className="portfolio-small">Web Design</small>
+                                    <h3 className="portfolio-hhh">Gridy Blogger</h3>
+                                    <div className="botton-dv">
+                                        <a className="portfolio-btn" target="blank" href="salik6/index.html">Preview</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6">
+                            <div className="portfolio-main-design">
+                                <div className="portfolio-img">
+                                    <img src="assets/img/salik1.png" alt="" />
+                                </div>
+                                <div className="portfolio-text">
+                                    <small className="portfolio-small">Web Design</small>
+                                    <h3 className="portfolio-hhh">Gridy Blogger</h3>
+                                    <div className="botton-dv">
+                                        <a className="portfolio-btn" target="blank" href="salik6/index.html">Preview</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6">
+                            <div className="portfolio-main-design">
+                                <div className="portfolio-img">
+                                    <img src="assets/img/salik1.png" alt="" />
+                                </div>
+                                <div className="portfolio-text">
+                                    <small className="portfolio-small">Web Design</small>
+                                    <h3 className="portfolio-hhh">Gridy Blogger</h3>
+                                    <div className="botton-dv">
+                                        <a className="portfolio-btn" target="blank" href="salik6/index.html">Preview</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
                         <div className="col-lg-4 col-md-6">
                             <div className="portfolio-main-design">
@@ -62,7 +104,7 @@ const Projects = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-6">
+                        {/* <div className="col-lg-4 col-md-6">
                             <div className="portfolio-main-design">
                                 <div className="portfolio-img">
                                     <img src="assets/img/salik5.png" alt="" />
@@ -75,9 +117,9 @@ const Projects = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
 
-                        <div className="col-lg-4 col-md-6">
+                        {/* <div className="col-lg-4 col-md-6">
                             <div className="portfolio-main-design">
                                 <div className="portfolio-img">
                                     <img src="assets/img/portfolio3.png" alt="" />
@@ -91,9 +133,9 @@ const Projects = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
 
-                        <div className="col-lg-4 col-md-6">
+                        {/* <div className="col-lg-4 col-md-6">
                             <div className="portfolio-main-design">
                                 <div className="portfolio-img">
                                     <img src="assets/img/salik6.png" alt="" />
@@ -107,7 +149,7 @@ const Projects = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>

@@ -67,7 +67,7 @@ const ContactMe = () => {
                                                         placeholder="Your Message" name='message'></textarea>
                                                 </div>
 
-                                                <input type="submit" value="Send Message" />
+                                                <input type="submit" className='btn btn-primary fw-bold' value="Send Message" />
                                             </form>
 
 

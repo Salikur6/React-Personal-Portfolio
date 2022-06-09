@@ -353,12 +353,12 @@ section#about {
 }
 @keyframes example {
   0% {
-    background-color: red;
+    background-color: black;
     left: 0px;
     top: 0px;
   }
   100% {
-    background-color: red;
+    background-color: black;
     left: -300000px;
     top: 0px;
   }
@@ -392,12 +392,12 @@ section#about {
 }
 @keyframes example2 {
   0% {
-    background-color: red;
+    background-color: black;
     right: 0px;
     top: 0px;
   }
   100% {
-    background-color: red;
+    background-color: black;
     left: 300000px;
     top: 0px;
   }
