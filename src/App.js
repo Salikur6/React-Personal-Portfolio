@@ -6,6 +6,7 @@ import { Route, Routes } from 'react-router-dom';
 import CarManufacturer from './components/CarManufacturer';
 import Navbar from './components/Navbar';
 import FurnituresiteProject from './components/FurnituresiteProject';
+import Blogs from './Blogs';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Navbar></Navbar>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
+        <Route path='/blogs' element={<Blogs></Blogs>}></Route>
         {/* <Route path='/projectdetails/:id' element={<ProjectsDetails></ProjectsDetails>}></Route> */}
 
         <Route path='/carproject' element={<CarManufacturer></CarManufacturer>}></Route>
