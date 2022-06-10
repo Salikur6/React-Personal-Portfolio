@@ -19,14 +19,14 @@
         "overview" : [
             "This website contain some furniture products. This website is for user and admin. User can see the products and blogs. Admin can add item, update item and delete any item.",
     
-            "1. Home page 6 items displayed for user.. There is two role admin and user.",
-            " 2. A blogs page for beatiful articals.",
-            " 3. Admin can add item , Update item and delete items.",
-            " 4. Implemented login system for authorising the Clients and order how much you need.",
-            " 5. You can pay using your credit card.",
-            " 6. dashboard page they clients can order and pay for specific products. If paid, the client will see paid and TxnId.",
-            " 7. For an admin role user there in the dashboard he can cancel any unpaid order . make other admin and my profile page.",
-            " 8. This site is protected using JsonWebToken"
+            " ◉ Home page 6 items displayed for user.. There is two role admin and user.",
+            " ◉ A blogs page for beatiful articals.",
+            " ◉ Admin can add item , Update item and delete items.",
+            " ◉ Implemented login system for authorising the Clients and order how much you need.",
+            " ◉ You can pay using your credit card.",
+            " ◉ dashboard page they clients can order and pay for specific products. If paid, the client will see paid and TxnId.",
+            " ◉ For an admin role user there in the dashboard he can cancel any unpaid order . make other admin and my profile page.",
+            " ◉ This site is protected using JsonWebToken"
         ],
         "technology" : [
             "HTML",

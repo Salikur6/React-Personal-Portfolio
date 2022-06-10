@@ -17,14 +17,14 @@
             
         ],
         "overview" : [
-            "1. This site has different features for different roles. There is two role admin and user.",
-            " 2. Only admin has permit to go more page like All User, manage all orders, add a product.",
-            " 3. Admin can add item , Update item and delete items.",
-            " 4. Implemented login system for authorising the Clients and order how much you need.",
-            " 5. You can pay using your credit card.",
-            " 6. dashboard page they clients can order and pay for specific products. If paid, the client will see paid and TxnId.",
-            " 7. For an admin role user there in the dashboard he can cancel any unpaid order . make other admin and my profile page.",
-            " 8. This site is protected using JsonWebToken"
+            " ◉ This site has different features for different roles. There is two role admin and user.",
+            " ◉ Only admin has permit to go more page like All User, manage all orders, add a product.",
+            " ◉ Admin can add item , Update item and delete items.",
+            " ◉ Implemented login system for authorising the Clients and order how much you need.",
+            " ◉ You can pay using your credit card.",
+            " ◉ dashboard page they clients can order and pay for specific products. If paid, the client will see paid and TxnId.",
+            " ◉ For an admin role user there in the dashboard he can cancel any unpaid order . make other admin and my profile page.",
+            " ◉ This site is protected using JsonWebToken"
         ],
         "technology" : [
             "HTML",
