@@ -1,70 +1,70 @@
 (function ($) {
 
 
-    // Profile infomation click to hide and show //
+    // // Profile infomation click to hide and show //
 
-    $(".click1").click(function () {
-        $(".profile-info-2").hide();
-        $(".profile-info-3").hide();
-        $(".profile-info-1").show();
-    });
-    $(".click2").click(function () {
-        $(".profile-info-1").hide();
-        $(".profile-info-3").hide();
-        $(".profile-info-2").show();
-    });
-    $(".click3").click(function () {
-        $(".profile-info-1").hide();
-        $(".profile-info-2").hide();
-        $(".profile-info-3").show();
-    });
+    // $(".click1").click(function () {
+    //     $(".profile-info-2").hide();
+    //     $(".profile-info-3").hide();
+    //     $(".profile-info-1").show();
+    // });
+    // $(".click2").click(function () {
+    //     $(".profile-info-1").hide();
+    //     $(".profile-info-3").hide();
+    //     $(".profile-info-2").show();
+    // });
+    // $(".click3").click(function () {
+    //     $(".profile-info-1").hide();
+    //     $(".profile-info-2").hide();
+    //     $(".profile-info-3").show();
+    // });
 
 
-    $(".click1").click(function () {
-        $(".click1").addClass("fff");
-        $(".click2").removeClass("fff");
-        $(".click3").removeClass("fff");
-    })
-    $(".click2").click(function () {
+    // $(".click1").click(function () {
+    //     $(".click1").addClass("fff");
+    //     $(".click2").removeClass("fff");
+    //     $(".click3").removeClass("fff");
+    // })
+    // $(".click2").click(function () {
 
-        $(".click2").addClass("fff");
-        $(".click1").removeClass("fff");
-        $(".click3").removeClass("fff");
-    })
-    $(".click3").click(function () {
+    //     $(".click2").addClass("fff");
+    //     $(".click1").removeClass("fff");
+    //     $(".click3").removeClass("fff");
+    // })
+    // $(".click3").click(function () {
 
-        $(".click3").addClass("fff");
-        $(".click1").removeClass("fff");
-        $(".click2").removeClass("fff");
+    //     $(".click3").addClass("fff");
+    //     $(".click1").removeClass("fff");
+    //     $(".click2").removeClass("fff");
 
-    })
+    // })
 
     // Testimonials using owlCarousel slider //
 
-    $('.main-cont').owlCarousel({
-        items: 1,
-        loop: true,
-        margin: 0,
-        nav: false,
-        dots: true,
-        autoplay: true,
-        autoplayHoverPause: true,
-        navText: [
-            "<i class='icofont-rounded-left'></i>",
-            "<i class='icofont-rounded-right'></i>"
-        ],
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 1
-            },
-            1000: {
-                items: 1
-            }
-        }
-    })
+    // $('.main-cont').owlCarousel({
+    //     items: 1,
+    //     loop: true,
+    //     margin: 0,
+    //     nav: false,
+    //     dots: true,
+    //     autoplay: true,
+    //     autoplayHoverPause: true,
+    //     navText: [
+    //         "<i class='icofont-rounded-left'></i>",
+    //         "<i class='icofont-rounded-right'></i>"
+    //     ],
+    //     responsive: {
+    //         0: {
+    //             items: 1
+    //         },
+    //         600: {
+    //             items: 1
+    //         },
+    //         1000: {
+    //             items: 1
+    //         }
+    //     }
+    // })
 
     // About Us Section using scrollTop class animation //
 

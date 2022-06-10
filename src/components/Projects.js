@@ -1,10 +1,10 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Projects = () => {
-
+    const navigate = useNavigate();
 
     const [projects, setProjects] = useState([]);
 
@@ -13,10 +13,12 @@ const Projects = () => {
         fetch('projects.json')
             .then(res => res.json())
             .then(data => {
-                console.log(data);
+                // console.log(data);
                 setProjects(data);
             })
     }, [])
+
+
 
 
 
@@ -45,7 +47,7 @@ const Projects = () => {
                                         <small className="portfolio-small">{project?.projectIdea}</small>
                                         <h3 className="portfolio-hhh">{project?.title}</h3>
                                         <div className="d-flex justify-content-between px-2">
-                                            <Link to={`/projectdetails/${project?._id}`} className="portfolio-btn">View Details</Link>
+                                            <Link to='/carproject' className="portfolio-btn">View Details</Link>
                                             <a className="portfolio-btn" target="blank" href={project?.liveLink}>Live Link</a>
                                         </div>
                                     </div>
