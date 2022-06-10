@@ -1,15 +1,35 @@
-import React from 'react';
-import { useState } from 'react';
-import useProjects from './useProjects';
+import React, { useEffect, useState } from 'react';
+// import useProjects from './useProjects';
 
-const CarManufacturer = () => {
-    const [projects] = useProjects();
-    const [selectedImg, setSelectedImg] = useState(projects[0]?.img[0])
+const FurnituresiteProject = () => {
 
-    console.log(projects)
+    // const [projects] = useProjects();
+
+
+    // const furnitureData = projects[1];
+    // console.log(furnitureData)
+
+
+    const [projects, setProjects] = useState([]);
+
+    const [selectedImg, setSelectedImg] = useState(projects[1]?.img[0])
+
+    useEffect(() => {
+        fetch('furnitureData.json')
+            .then(res => res.json())
+            .then(data => {
+                console.log(data);
+                setProjects(data);
+            })
+    }, [])
+
+
     return (
         <div className='p-3' style={{ background: 'linear-gradient(-45deg,#212428,#212428)', borderRadius: '20px', cursor: 'pointer' }}>
-            {projects?.map(project =>
+
+
+
+            {projects.map(project =>
                 <div key={project?._id} className='container my-5'>
                     <div className="row">
                         <div className="col-lg-6 col-md-12">
@@ -53,8 +73,11 @@ const CarManufacturer = () => {
                 </div>
             )}
 
+
+
+
         </div>
     );
 };
 
-export default CarManufacturer;
+export default FurnituresiteProject;

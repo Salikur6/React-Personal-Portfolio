@@ -19,6 +19,17 @@ const Projects = () => {
     }, [])
 
 
+    const [furniture, setFurniture] = useState([]);
+
+    useEffect(() => {
+        fetch('furnitureData.json')
+            .then(res => res.json())
+            .then(data => {
+                console.log(data);
+                setFurniture(data);
+            })
+    }, [])
+
 
 
 
@@ -35,11 +46,11 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="row">
+                        {projects.map(project =>
+                            <div className="col-lg-4 col-md-6" key={project._id}>
 
-                        <div className="col-lg-4 col-md-6">
-                            {projects.map(project =>
 
-                                <div className="portfolio-main-design" key={project._id}>
+                                <div className="portfolio-main-design" >
                                     <div className="portfolio-img">
                                         <img src={project.img[0]} alt="" />
                                     </div>
@@ -47,15 +58,37 @@ const Projects = () => {
                                         <small className="portfolio-small">{project?.projectIdea}</small>
                                         <h3 className="portfolio-hhh">{project?.title}</h3>
                                         <div className="d-flex justify-content-between px-2">
-                                            <Link to='/carproject' className="portfolio-btn">View Details</Link>
+                                            <Link to={project?.detailsLink} className="portfolio-btn">View Details</Link>
                                             <a className="portfolio-btn" target="blank" href={project?.liveLink}>Live Link</a>
                                         </div>
                                     </div>
                                 </div>
 
-                            )}
+                            </div>
+                        )}
 
-                        </div>
+
+
+                        {furniture.map(project =>
+                            <div className="col-lg-4 col-md-6" key={project._id}>
+
+
+                                <div className="portfolio-main-design" >
+                                    <div className="portfolio-img">
+                                        <img src={project.img[0]} alt="" />
+                                    </div>
+                                    <div className="portfolio-text">
+                                        <small className="portfolio-small">{project?.projectIdea}</small>
+                                        <h3 className="portfolio-hhh">{project?.title}</h3>
+                                        <div className="d-flex justify-content-between px-2">
+                                            <Link to={project?.detailsLink} className="portfolio-btn">View Details</Link>
+                                            <a className="portfolio-btn" target="blank" href={project?.liveLink}>Live Link</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        )}
 
                         {/*                         
                         <div className="col-lg-4 col-md-6">

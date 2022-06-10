@@ -1,13 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
         <div>
             <nav className="navbar navbar-expand-lg navbar-light">
                 <div className="container">
-                    <a className="navbar-brand" target="blank"
-                        href="https://editor.freelogodesign.org/en/logo/edit/529ce6589a944858b8a00c3748fca447?template=21832872&category=35&companyName=salikur%20islam&view=icons">
-                        <img className="logo-size" src="assets/img/logo.png" alt="" /></a>
+                    <Link to='/' className="navbar-brand" ><img className="logo-size" src="assets/img/logo.png" alt="" /></Link>
 
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"

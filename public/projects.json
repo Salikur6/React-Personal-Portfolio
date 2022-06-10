@@ -41,7 +41,10 @@
         ],
         "liveLink": "https://car-manufacturer-65843.web.app/",
         "clientLink": "https://github.com/Salikur6/A12-car-manufacturer-parts-client",
-        "serverLink": "https://github.com/Salikur6/A12-car-manufacturer-parts-server"
+        "serverLink": "https://github.com/Salikur6/A12-car-manufacturer-parts-server",
+
+        "detailsLink" : "/carproject"
+
 
     }
 

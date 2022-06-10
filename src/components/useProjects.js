@@ -1,9 +1,11 @@
 import { useEffect, useState } from 'react';
+import Spinner from './Spinner/Spinner';
 
 const useProjects = (id) => {
-
+    // const [loading, setLoading] = useState(false);
 
     const [projects, setProjects] = useState([]);
+
 
 
     useEffect(() => {
@@ -15,6 +17,9 @@ const useProjects = (id) => {
             })
     }, [])
 
+    // if (loading) {
+    //     return <Spinner></Spinner>
+    // }
 
     return [projects];
 };

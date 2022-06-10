@@ -5,6 +5,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import { Route, Routes } from 'react-router-dom';
 import CarManufacturer from './components/CarManufacturer';
 import Navbar from './components/Navbar';
+import FurnituresiteProject from './components/FurnituresiteProject';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
         {/* <Route path='/projectdetails/:id' element={<ProjectsDetails></ProjectsDetails>}></Route> */}
 
         <Route path='/carproject' element={<CarManufacturer></CarManufacturer>}></Route>
+
+        <Route path='/furnitureproject' element={<FurnituresiteProject></FurnituresiteProject>}></Route>
       </Routes>
     </div>
   );
