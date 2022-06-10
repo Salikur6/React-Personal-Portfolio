@@ -1,0 +1,48 @@
+[
+    {
+        "_id": "1",
+        "projectIdea" : "Full-Stack Project",
+        "title" : "Car Manufacturer Parts",
+        
+        "img" : [
+            "https://i.ibb.co/FV8z042/car-manufacture-full-img.png",
+
+            "https://i.ibb.co/j3TpWDY/car-manufacture-items-parts-img.png",
+
+            "https://i.ibb.co/QH2zzTF/car-manufacture-manageorders.png",
+
+            "https://i.ibb.co/qpMNpzt/car-manufacture-profile.png",
+
+            "https://i.ibb.co/Q66w1BF/car-manufacture-register.png"
+            
+        ],
+        "overview" : [
+            "1.This site has different features for different roles. There is two role admin and user.",
+            "2. Only admin has permit to go more page like All User, manage all orders, add a product.",
+            "3. Admin can add item , Update item and delete items.",
+            "4. Implemented login system for authorising the Clients and order how much you need.",
+            "5. You can pay using your credit card.",
+            "6. dashboard page they clients can order and pay for specific products. If paid, the client will see paid and TxnId.",
+            "7. For an admin role user there in the dashboard he can cancel any unpaid order . make other admin and my profile page.",
+            "8. This site is protected using JsonWebToken"
+        ],
+        "technology" : [
+            "HTML",
+            "CSS",
+            "TAILWIND",
+            "DAISYUI",
+            "JAVASCRIPT",
+            "REACT",
+            "EXPRESSJS",
+            "MONGODB",
+            "STRIPE",
+            "AUTHENTICATION",
+            "JWT"
+        ],
+        "liveLink": "https://car-manufacturer-65843.web.app/",
+        "clientLink": "https://github.com/Salikur6/A12-car-manufacturer-parts-client",
+        "serverLink": "https://github.com/Salikur6/A12-car-manufacturer-parts-server"
+
+    }
+
+]

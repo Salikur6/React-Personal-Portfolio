@@ -1,6 +1,25 @@
 import React from 'react';
+import { useEffect } from 'react';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Projects = () => {
+
+
+    const [projects, setProjects] = useState([]);
+
+
+    useEffect(() => {
+        fetch('projects.json')
+            .then(res => res.json())
+            .then(data => {
+                console.log(data);
+                setProjects(data);
+            })
+    }, [])
+
+
+
     return (
         <div>
             <section className="mt-100 mb-70">
@@ -13,23 +32,30 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-
                     <div className="row">
 
                         <div className="col-lg-4 col-md-6">
-                            <div className="portfolio-main-design">
-                                <div className="portfolio-img">
-                                    <img src="assets/img/carmanufacturer.png" alt="" />
-                                </div>
-                                <div className="portfolio-text">
-                                    <small className="portfolio-small">Full-Stack Development</small>
-                                    <h3 className="portfolio-hhh">Car Manufacturer Parts</h3>
-                                    <div className="botton-dv">
-                                        <a className="portfolio-btn" target="blank" href="https://car-manufacturer-65843.web.app/">Preview</a>
+                            {projects.map(project =>
+
+                                <div className="portfolio-main-design" key={project._id}>
+                                    <div className="portfolio-img">
+                                        <img src={project.img[0]} alt="" />
+                                    </div>
+                                    <div className="portfolio-text">
+                                        <small className="portfolio-small">{project?.projectIdea}</small>
+                                        <h3 className="portfolio-hhh">{project?.title}</h3>
+                                        <div className="d-flex justify-content-between px-2">
+                                            <Link to={`/projectdetails/${project?._id}`} className="portfolio-btn">View Details</Link>
+                                            <a className="portfolio-btn" target="blank" href={project?.liveLink}>Live Link</a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+
+                            )}
+
                         </div>
+
+                        {/*                         
                         <div className="col-lg-4 col-md-6">
                             <div className="portfolio-main-design">
                                 <div className="portfolio-img">
@@ -102,7 +128,25 @@ const Projects = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
+
+
+
+
+
+
+
+
+
+
+
+                        {/* ----------------------------------------------------------------------------------------------------- */}
+
+
+
+
+
+
 
                         {/* <div className="col-lg-4 col-md-6">
                             <div className="portfolio-main-design">

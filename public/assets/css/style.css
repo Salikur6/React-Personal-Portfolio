@@ -748,8 +748,15 @@ i.icon.style-social-link {
   border-radius: 25px 40px 40px 25px;
 }
 .portfolio-img img {
-  height: 253px;
+  height: 270px;
   width: 400px;
+  object-fit: cover;
+  object-position: top;
+  transition: all 5s ease;
+}
+
+.portfolio-main-design:hover .portfolio-img img{
+  object-position: bottom;
 }
 a.portfolio-btn {
   padding: 5px 25px 5px 25px;
@@ -785,9 +792,7 @@ a.portfolio-btn:hover {
     15px 15px 0px 0px #a1d8ff, 20px 20px 0px 0px #cae6ff,
     5px 5px 15px 5px rgb(0 0 0 / 0%);
 }
-.botton-dv {
-  text-align: center;
-}
+
 .portfolio-small {
   font-size: 14px;
   font-weight: 600;
